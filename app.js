@@ -7,6 +7,7 @@ import DB from "./db/db";
 import mongoose from 'mongoose';
 import userRoute from './routes/user';
 import authRoute from './routes/auth'
+import trainerRoute from './routes/trainer';
 
 
 mongoose.set("debug", false);
@@ -44,6 +45,7 @@ let body = {
 app.use("/", express.static("public"));
 app.use("/user", userRoute)
 app.use("/auth", authRoute)
+app.use("/trainer",trainerRoute)
 
 
 

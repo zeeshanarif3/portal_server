@@ -51,7 +51,7 @@ const userSchema = new mongoose.Schema(
             type: String,
             default: ""
         },
-        address: {
+        type: {
             type: String,
             default: ""
         },
@@ -76,7 +76,10 @@ const userSchema = new mongoose.Schema(
             type: String,
             default: null
         },
-   
+        status: {
+            type: Number,
+            default: 0
+        },
         createdAt: {
             type: Number
         },

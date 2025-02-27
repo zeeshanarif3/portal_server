@@ -8,8 +8,13 @@ export const responseCodes = {
 };
 
 export const messages = {
-    paymentSuccess: "Payment Successfull.",
-    notaGroupChatId: "Not a group chat",
+    trainerDeactivate:"Trainer has been activated ",
+    trainerActivate:"Trainer has been deactivated ",
+    deleteteTrainer:"Trainer has been deleted successfully",
+    trainerfetched:"Trainers fetched successfully",
+    retreivetrainer:"Trainer retrieved successfully",
+
+
     createAccount: "Your account has been created successfully",
     failedAccount: "Your account create failed.",
     userExist: "User already exist.",
